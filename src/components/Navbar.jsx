@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
         
  {/* Mobile-Menu */}
-        <div onClick={handleNav} className={nav ? 'absolute text-black left-[0] duration-300 bg-gray-100/90 top-0 z-10 w-full' : 'absolute left-[-100%]'}>
+        <div onClick={handleNav} className={nav ? 'absolute text-black left-[0] duration-300 bg-gray-100/90 top-0 z-10 w-full h-screen' : 'absolute left-[-100%]'}>
          <ul>
           <div className='flex justify-between items-center'>
           <h1 className='text-3xl font-bold p-4'>Aurora.</h1>
