@@ -1,1 +1,1 @@
-Aurora a Travel Website
+Travel Website
